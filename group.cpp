@@ -1,53 +1,61 @@
 #include <iostream>
 using namespace std;
-int car (bool x)
-{cin >> x;
-if (x = yes)
-{
-    ++yes;
-    return x;
-}}
+// pass by reference for array
+// int car (bool x)
+// {cin >> x;
+// if (x = yes)
+// {
+    // ++yes;
+    // return x;
+// }}
 int main ()
-int yes[] = {0,0,0,0,0};
-int no[] = {0,0,0,0,0};
+{ 
+     while(1 == 1){
+// for each
+int yes[5] = {0,0,0,0,0};
+int no[5] = {0,0,0,0,0};
 cout << "do i know the true value of the car?";
-char c-value;
-cin >> c-value;
-if (c-value = yes)
+char cvalue;
+cin >> cvalue;
+if (cvalue == 'y')
 {
-    ++yes;
+    yes[1]++;
 }
 cout << "Less than 5 owners?";
-cin >> c-value;
-if (c-value = yes)
+cin >> cvalue;
+if (cvalue)
 {
-    ++yes;
+    yes[2]++;
 }
 cout << "less than 200,000Km?";
-cin >> c-value;
-if (c-value = yes)
+cin >> cvalue;
+if (cvalue)
 {
-    ++yes;
+    yes[3]++;
 }
 cout << "is the car free of any accidents?";
-cin >> c-value;
-if (c-value = yes)
+cin >> cvalue;
+if (cvalue)
 {
-    ++yes;
+    yes[4]++;
 }
 cout << "Is the car road ready?";
-cin >> c-value;
-if (c-value = yes)
+cin >> cvalue;
+if (cvalue)
 {
-    ++yes;
+    yes[5]++;
 }
 cout << "Wait while we calculate your results";
-if(yes >=3){
-cout << "Buy the car!";
-}
+// if(c >=3){
+// cout << "Buy the car!";
+// }
+// else if (cvalue == 'e'){
+    // break;
+// }
 
 
 
 
-
+     }
 return 0;
+     }
