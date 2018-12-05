@@ -18,25 +18,43 @@ cout << "do i know the true value of the car?";
 if(car(x) == 1){
    yes[1] = x;
 }
+else if(car(x) == 0){
+    no[1] = x;
+}
 cout << "Less than 5 owners?";
 if(car(x) == 1) {
    yes[2] = x; 
+}
+else if(car(x) == 0){
+    no[2] = x;
 }
 cout << "less than 200,000Km?";
 if(car(x) == 1) {
     yes[3] = x; 
 }
+else if(car(x) == 0){
+    no[3] = x;
+}
 cout << "is the car free of any accidents?";
 if(car(x) == 1) {
    yes[4] = x; 
+}
+else if(car(x) == 0){
+    no[4] = x;
 }
 cout << "Is the car road ready?";
 if(car(x) == 1) {
    yes[5] = x; 
 }
+else if(car(x) == 0){
+    no[5] = x;
+}
 cout << "Wait while we calculate your results";
-// if(c >=3){
+// if(y >=3){
 // cout << "Buy the car!";
+// }
+// else if (n >=3){
+    // cout << "Don't buy the car!";
 // }
 // if (cvalue == 'e'){
     // break;
