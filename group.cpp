@@ -4,11 +4,10 @@ using namespace std;
  int car (int x) {
     //  int x;
 //  for(int i=0; i<5; i++)
-// cin >> x;
+ cin >> x;
 return x; }
 int main ()
 { 
-     while(1 == 1){
 // for each
 int x;
 
@@ -16,25 +15,24 @@ int yes[5] = {0,0,0,0,0};
 int no[5] = {0,0,0,0,0};
 cout << "do i know the true value of the car?";
 // char cvalue;
-cin >> x;
-if(x == 1) {
-   car(x) = yes[1]; 
+if(car(x) == 1){
+   yes[1] = x;
 }
 cout << "Less than 5 owners?";
-if(x == 1) {
-   car(x) = yes[2]; 
+if(car(x) == 1) {
+   yes[2] = x; 
 }
 cout << "less than 200,000Km?";
-if(x == 1) {
-   car(x) = yes[3]; 
+if(car(x) == 1) {
+    yes[3] = x; 
 }
 cout << "is the car free of any accidents?";
-if(x == 1) {
-   car(x) = yes[4]; 
+if(car(x) == 1) {
+   yes[4] = x; 
 }
 cout << "Is the car road ready?";
-if(x == 1) {
-   car(x) = yes[5]; 
+if(car(x) == 1) {
+   yes[5] = x; 
 }
 cout << "Wait while we calculate your results";
 // if(c >=3){
@@ -44,9 +42,5 @@ cout << "Wait while we calculate your results";
     // break;
 // }
 
-
-
-
-     }
 return 0;
      }
