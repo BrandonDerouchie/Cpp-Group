@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
  int car (int x) {
- std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
  cin >> x;
+ std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
  return x;
 }
 int main (){
