@@ -11,7 +11,7 @@ int x, y, n;
 int yes[5] = {0,0,0,0,0};
 int no[5] = {0,0,0,0,0};
 cout << "welcome to how to buy a car.\n select your answers with 0, 1, 2.\n";
-cout << "0 = no\n 1 = yes\n 2 = exit\n";
+cout << " 0 = no\n 1 = yes\n 2 = exit\n";
 cout << "do i know the true value of the car?\n";
 if(car(x) == 2){
     return 0;
@@ -56,7 +56,7 @@ n = no[0] + no[1] + no[2] + no[3] + no[4];
  if(y >=3){
     cout << "Buy the car!\n";
  }
- else if (n >=3){
+ else if(n >=3){
     cout << "Don't buy the car!\n";
  }
 
