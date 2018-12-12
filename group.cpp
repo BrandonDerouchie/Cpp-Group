@@ -1,5 +1,4 @@
 #include <iostream>
-#include <dos.h>
 using namespace std;
  int car (int x) {
  cin >> x;
@@ -56,7 +55,7 @@ if(result == 1) {
 else if(result == 0){
     no[4] = 1;
 }
-cout << "Wait while we calculate your results\n";
+cout << "Here are your results\n";
 cout << "..\n..\n..\n..\n..\n..\n..\n..\n..\n..\n..\n..\n..\n";
 y = yes[0] + yes[1] + yes[2] + yes[3] + yes[4];
 n = no[0] + no[1] + no[2] + no[3] + no[4];
